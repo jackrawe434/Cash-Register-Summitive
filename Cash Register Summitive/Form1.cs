@@ -81,13 +81,21 @@ namespace Cash_Register_Summitive
             }
             catch
             {
+                changeAmountLabel.Text = "0";
                 g.Clear(Color.White);
                 g.DrawString("Hold Your Horses! You Gotta Pay Up!", blackFont, blackText, 10, 50);
+                Thread.Sleep(3000);
+                g.Clear(Color.White);
+                changeAmountLabel.Text = "0";
             }
 
             if (tendered < total)
             {
+                changeAmountLabel.Text = "0";
                 g.DrawString("\n\nYou Gotta Pay The Full Amount!", blackFont, blackText, 10, 50);
+                changeAmountLabel.Text = "0";
+                Thread.Sleep(3000);
+                g.Clear(Color.White);
                 changeAmountLabel.Text = "0";
             }
 
@@ -158,17 +166,17 @@ namespace Cash_Register_Summitive
             aleUpDown.Text = "0";
             whiskeyUpDown.Text = "0";
             choiceUpDown.Text = "0";
-            double numberOfAle = 0;
-            double numberOfWhiskey = 0;
-            double numberOfChoice = 0;
-            double subtotal = 0;
-            double tax = 0;
-            double total = 0;
-            double tendered = 0;
-            double change = 0;
-            double aleTotal = 0;
-            double whiskeyTotal = 0;
-            double choiceTotal = 0;
+            numberOfAle = 0;
+            numberOfWhiskey = 0;
+            numberOfChoice = 0;
+            subtotal = 0;
+            tax = 0;
+            total = 0;
+            tendered = 0;
+            change = 0;
+            aleTotal = 0;
+            whiskeyTotal = 0;
+            choiceTotal = 0;
         }
     }
 }

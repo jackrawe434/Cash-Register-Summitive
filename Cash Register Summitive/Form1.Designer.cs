@@ -68,8 +68,9 @@
             this.topBannerLabel.Font = new System.Drawing.Font("Decorated035 BT", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.topBannerLabel.ForeColor = System.Drawing.Color.SaddleBrown;
             this.topBannerLabel.Location = new System.Drawing.Point(-2, -4);
+            this.topBannerLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.topBannerLabel.Name = "topBannerLabel";
-            this.topBannerLabel.Size = new System.Drawing.Size(803, 55);
+            this.topBannerLabel.Size = new System.Drawing.Size(803, 56);
             this.topBannerLabel.TabIndex = 0;
             this.topBannerLabel.Text = "Ye Olde Saloon";
             this.topBannerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -78,17 +79,19 @@
             // 
             this.subTaxLabel.BackColor = System.Drawing.Color.PeachPuff;
             this.subTaxLabel.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subTaxLabel.Location = new System.Drawing.Point(3, 51);
+            this.subTaxLabel.Location = new System.Drawing.Point(2, 50);
+            this.subTaxLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.subTaxLabel.Name = "subTaxLabel";
-            this.subTaxLabel.Size = new System.Drawing.Size(817, 404);
+            this.subTaxLabel.Size = new System.Drawing.Size(817, 405);
             this.subTaxLabel.TabIndex = 1;
             this.subTaxLabel.Text = " ";
             // 
             // receptLabel
             // 
             this.receptLabel.Location = new System.Drawing.Point(461, 61);
+            this.receptLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.receptLabel.Name = "receptLabel";
-            this.receptLabel.Size = new System.Drawing.Size(327, 318);
+            this.receptLabel.Size = new System.Drawing.Size(326, 318);
             this.receptLabel.TabIndex = 2;
             this.receptLabel.Text = " ";
             // 
@@ -101,6 +104,7 @@
             this.newCustomerButton.Font = new System.Drawing.Font("Decorated035 BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newCustomerButton.ForeColor = System.Drawing.Color.SaddleBrown;
             this.newCustomerButton.Location = new System.Drawing.Point(464, 403);
+            this.newCustomerButton.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.newCustomerButton.Name = "newCustomerButton";
             this.newCustomerButton.Size = new System.Drawing.Size(314, 35);
             this.newCustomerButton.TabIndex = 3;
@@ -117,8 +121,9 @@
             this.printButton.Font = new System.Drawing.Font("Decorated035 BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.printButton.ForeColor = System.Drawing.Color.SaddleBrown;
             this.printButton.Location = new System.Drawing.Point(67, 403);
+            this.printButton.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.printButton.Name = "printButton";
-            this.printButton.Size = new System.Drawing.Size(303, 35);
+            this.printButton.Size = new System.Drawing.Size(302, 35);
             this.printButton.TabIndex = 4;
             this.printButton.Text = "Print Receipt ";
             this.printButton.UseVisualStyleBackColor = false;
@@ -131,6 +136,7 @@
             this.cowboyAleLabel.Font = new System.Drawing.Font("Decorated035 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cowboyAleLabel.ForeColor = System.Drawing.Color.SaddleBrown;
             this.cowboyAleLabel.Location = new System.Drawing.Point(12, 72);
+            this.cowboyAleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.cowboyAleLabel.Name = "cowboyAleLabel";
             this.cowboyAleLabel.Size = new System.Drawing.Size(194, 22);
             this.cowboyAleLabel.TabIndex = 5;
@@ -142,7 +148,8 @@
             this.yeOldWhisky.BackColor = System.Drawing.Color.PeachPuff;
             this.yeOldWhisky.Font = new System.Drawing.Font("Decorated035 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.yeOldWhisky.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.yeOldWhisky.Location = new System.Drawing.Point(12, 118);
+            this.yeOldWhisky.Location = new System.Drawing.Point(12, 119);
+            this.yeOldWhisky.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.yeOldWhisky.Name = "yeOldWhisky";
             this.yeOldWhisky.Size = new System.Drawing.Size(260, 22);
             this.yeOldWhisky.TabIndex = 7;
@@ -155,6 +162,7 @@
             this.sheriffsChoiceLabel.Font = new System.Drawing.Font("Decorated035 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sheriffsChoiceLabel.ForeColor = System.Drawing.Color.SaddleBrown;
             this.sheriffsChoiceLabel.Location = new System.Drawing.Point(12, 160);
+            this.sheriffsChoiceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.sheriffsChoiceLabel.Name = "sheriffsChoiceLabel";
             this.sheriffsChoiceLabel.Size = new System.Drawing.Size(280, 22);
             this.sheriffsChoiceLabel.TabIndex = 8;
@@ -164,6 +172,7 @@
             // 
             this.aleUpDown.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aleUpDown.Location = new System.Drawing.Point(335, 73);
+            this.aleUpDown.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.aleUpDown.Name = "aleUpDown";
             this.aleUpDown.Size = new System.Drawing.Size(120, 24);
             this.aleUpDown.TabIndex = 9;
@@ -172,6 +181,7 @@
             // 
             this.choiceUpDown.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.choiceUpDown.Location = new System.Drawing.Point(335, 161);
+            this.choiceUpDown.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.choiceUpDown.Name = "choiceUpDown";
             this.choiceUpDown.Size = new System.Drawing.Size(120, 24);
             this.choiceUpDown.TabIndex = 10;
@@ -180,6 +190,7 @@
             // 
             this.whiskeyUpDown.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.whiskeyUpDown.Location = new System.Drawing.Point(335, 119);
+            this.whiskeyUpDown.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.whiskeyUpDown.Name = "whiskeyUpDown";
             this.whiskeyUpDown.Size = new System.Drawing.Size(120, 24);
             this.whiskeyUpDown.TabIndex = 11;
@@ -193,8 +204,9 @@
             this.calculateButton.Font = new System.Drawing.Font("Decorated035 BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calculateButton.ForeColor = System.Drawing.Color.SaddleBrown;
             this.calculateButton.Location = new System.Drawing.Point(76, 197);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(303, 35);
+            this.calculateButton.Size = new System.Drawing.Size(302, 35);
             this.calculateButton.TabIndex = 12;
             this.calculateButton.Text = "Calculate Button";
             this.calculateButton.UseVisualStyleBackColor = false;
@@ -204,8 +216,9 @@
             // 
             this.dividerLabel.BackColor = System.Drawing.Color.SandyBrown;
             this.dividerLabel.Location = new System.Drawing.Point(12, 242);
+            this.dividerLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.dividerLabel.Name = "dividerLabel";
-            this.dividerLabel.Size = new System.Drawing.Size(422, 23);
+            this.dividerLabel.Size = new System.Drawing.Size(422, 22);
             this.dividerLabel.TabIndex = 13;
             this.dividerLabel.Text = " ";
             // 
@@ -216,6 +229,7 @@
             this.subTotalLabel.Font = new System.Drawing.Font("Decorated035 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subTotalLabel.ForeColor = System.Drawing.Color.SaddleBrown;
             this.subTotalLabel.Location = new System.Drawing.Point(12, 277);
+            this.subTotalLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.subTotalLabel.Name = "subTotalLabel";
             this.subTotalLabel.Size = new System.Drawing.Size(132, 19);
             this.subTotalLabel.TabIndex = 14;
@@ -225,8 +239,9 @@
             // 
             this.subTotalAmountLabel.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subTotalAmountLabel.Location = new System.Drawing.Point(155, 277);
+            this.subTotalAmountLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.subTotalAmountLabel.Name = "subTotalAmountLabel";
-            this.subTotalAmountLabel.Size = new System.Drawing.Size(51, 19);
+            this.subTotalAmountLabel.Size = new System.Drawing.Size(50, 20);
             this.subTotalAmountLabel.TabIndex = 15;
             this.subTotalAmountLabel.Text = " ";
             // 
@@ -236,7 +251,8 @@
             this.taxLabel.BackColor = System.Drawing.Color.PeachPuff;
             this.taxLabel.Font = new System.Drawing.Font("Decorated035 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.taxLabel.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.taxLabel.Location = new System.Drawing.Point(12, 305);
+            this.taxLabel.Location = new System.Drawing.Point(12, 306);
+            this.taxLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.taxLabel.Name = "taxLabel";
             this.taxLabel.Size = new System.Drawing.Size(58, 19);
             this.taxLabel.TabIndex = 16;
@@ -245,9 +261,10 @@
             // taxAmountLabel
             // 
             this.taxAmountLabel.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.taxAmountLabel.Location = new System.Drawing.Point(155, 305);
+            this.taxAmountLabel.Location = new System.Drawing.Point(155, 306);
+            this.taxAmountLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.taxAmountLabel.Name = "taxAmountLabel";
-            this.taxAmountLabel.Size = new System.Drawing.Size(51, 19);
+            this.taxAmountLabel.Size = new System.Drawing.Size(50, 20);
             this.taxAmountLabel.TabIndex = 17;
             this.taxAmountLabel.Text = " ";
             // 
@@ -258,6 +275,7 @@
             this.totalLabel.Font = new System.Drawing.Font("Decorated035 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalLabel.ForeColor = System.Drawing.Color.SaddleBrown;
             this.totalLabel.Location = new System.Drawing.Point(12, 333);
+            this.totalLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.totalLabel.Name = "totalLabel";
             this.totalLabel.Size = new System.Drawing.Size(84, 19);
             this.totalLabel.TabIndex = 18;
@@ -266,9 +284,10 @@
             // totalAmountLabel
             // 
             this.totalAmountLabel.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalAmountLabel.Location = new System.Drawing.Point(155, 335);
+            this.totalAmountLabel.Location = new System.Drawing.Point(155, 334);
+            this.totalAmountLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.totalAmountLabel.Name = "totalAmountLabel";
-            this.totalAmountLabel.Size = new System.Drawing.Size(51, 19);
+            this.totalAmountLabel.Size = new System.Drawing.Size(50, 20);
             this.totalAmountLabel.TabIndex = 19;
             this.totalAmountLabel.Text = " ";
             this.totalAmountLabel.UseCompatibleTextRendering = true;
@@ -277,8 +296,9 @@
             // 
             this.label2.BackColor = System.Drawing.Color.SandyBrown;
             this.label2.Location = new System.Drawing.Point(220, 265);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(16, 114);
+            this.label2.Size = new System.Drawing.Size(16, 113);
             this.label2.TabIndex = 20;
             this.label2.Text = " ";
             // 
@@ -289,6 +309,7 @@
             this.tenderedLabel.Font = new System.Drawing.Font("Decorated035 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenderedLabel.ForeColor = System.Drawing.Color.SaddleBrown;
             this.tenderedLabel.Location = new System.Drawing.Point(242, 275);
+            this.tenderedLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.tenderedLabel.Name = "tenderedLabel";
             this.tenderedLabel.Size = new System.Drawing.Size(131, 19);
             this.tenderedLabel.TabIndex = 21;
@@ -302,7 +323,8 @@
             this.calculateTenderedButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.calculateTenderedButton.Font = new System.Drawing.Font("Decorated035 BT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calculateTenderedButton.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.calculateTenderedButton.Location = new System.Drawing.Point(246, 305);
+            this.calculateTenderedButton.Location = new System.Drawing.Point(246, 306);
+            this.calculateTenderedButton.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.calculateTenderedButton.Name = "calculateTenderedButton";
             this.calculateTenderedButton.Size = new System.Drawing.Size(188, 35);
             this.calculateTenderedButton.TabIndex = 23;
@@ -317,6 +339,7 @@
             this.alePriceLabel.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.alePriceLabel.ForeColor = System.Drawing.Color.SaddleBrown;
             this.alePriceLabel.Location = new System.Drawing.Point(212, 76);
+            this.alePriceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.alePriceLabel.Name = "alePriceLabel";
             this.alePriceLabel.Size = new System.Drawing.Size(48, 16);
             this.alePriceLabel.TabIndex = 24;
@@ -329,6 +352,7 @@
             this.whiskeyPriceLabel.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.whiskeyPriceLabel.ForeColor = System.Drawing.Color.SaddleBrown;
             this.whiskeyPriceLabel.Location = new System.Drawing.Point(278, 121);
+            this.whiskeyPriceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.whiskeyPriceLabel.Name = "whiskeyPriceLabel";
             this.whiskeyPriceLabel.Size = new System.Drawing.Size(48, 16);
             this.whiskeyPriceLabel.TabIndex = 25;
@@ -340,7 +364,8 @@
             this.choicePriceLabel.BackColor = System.Drawing.Color.PeachPuff;
             this.choicePriceLabel.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.choicePriceLabel.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.choicePriceLabel.Location = new System.Drawing.Point(281, 163);
+            this.choicePriceLabel.Location = new System.Drawing.Point(281, 162);
+            this.choicePriceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.choicePriceLabel.Name = "choicePriceLabel";
             this.choicePriceLabel.Size = new System.Drawing.Size(56, 16);
             this.choicePriceLabel.TabIndex = 26;
@@ -349,9 +374,10 @@
             // tenderedBox
             // 
             this.tenderedBox.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tenderedBox.Location = new System.Drawing.Point(379, 274);
+            this.tenderedBox.Location = new System.Drawing.Point(379, 275);
+            this.tenderedBox.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.tenderedBox.Name = "tenderedBox";
-            this.tenderedBox.Size = new System.Drawing.Size(55, 21);
+            this.tenderedBox.Size = new System.Drawing.Size(54, 21);
             this.tenderedBox.TabIndex = 27;
             // 
             // changeLabel
@@ -361,6 +387,7 @@
             this.changeLabel.Font = new System.Drawing.Font("Decorated035 BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changeLabel.ForeColor = System.Drawing.Color.SaddleBrown;
             this.changeLabel.Location = new System.Drawing.Point(248, 360);
+            this.changeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.changeLabel.Name = "changeLabel";
             this.changeLabel.Size = new System.Drawing.Size(103, 19);
             this.changeLabel.TabIndex = 28;
@@ -370,8 +397,9 @@
             // 
             this.changeAmountLabel.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changeAmountLabel.Location = new System.Drawing.Point(383, 360);
+            this.changeAmountLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.changeAmountLabel.Name = "changeAmountLabel";
-            this.changeAmountLabel.Size = new System.Drawing.Size(51, 19);
+            this.changeAmountLabel.Size = new System.Drawing.Size(50, 20);
             this.changeAmountLabel.TabIndex = 29;
             this.changeAmountLabel.Text = " ";
             // 
@@ -409,8 +437,9 @@
             this.Controls.Add(this.subTaxLabel);
             this.Controls.Add(this.topBannerLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.Name = "Ye_Olde_Saloon";
-            this.Text = "Form1";
+            this.Text = "Ye_Olde_Saloon";
             ((System.ComponentModel.ISupportInitialize)(this.aleUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.choiceUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.whiskeyUpDown)).EndInit();
